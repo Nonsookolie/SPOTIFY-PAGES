@@ -1,0 +1,57 @@
+main{
+    padding: 10px 0 20px 10px;
+}
+.container{
+    padding: 20px 0 0 15px;
+}
+.main-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    flex: 1;
+    margin-top: 30px;
+}
+.section-header{
+    display: block;
+}
+.section-header .title{
+    font-size: 2rem;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.section-card{
+    position: relative;
+    padding: 10px 15px 15px;
+    width: 210px;
+    min-width: 180px;
+    text-align: center;
+    border-radius: 5px;
+}
+.section-card img{
+    width: 180px;
+    min-width: 150px;
+    border-radius: 5px;
+}
+.section-card:hover::after{
+    content: "▶";
+    position: absolute;
+    top: 135px;
+    right: 25px;
+    font-size: 1.5rem;
+    color: #000000;
+    padding: 8px 12px 10px 17px;
+    background: #1ED760;
+    border-radius: 50%; 
+}
+
+.round img{
+    border-radius: 50%;
+    box-shadow: 0px 0px 210px 22px rgba(0,0,0,0.85);
+}
+
+.home{
+    display: block;
+}
